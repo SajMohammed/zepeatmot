@@ -197,7 +197,7 @@ const CheckoutBtn = ({amount, items, handlePaymentSuccess}) => {
         //     })
         // }
 
-        const expressData = await fetch('http://159.65.152.251/razorpay', { method: 'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({amount:amount}) }).then((t) =>
+        const expressData = await fetch('http://159.65.159.39/razorpay', { method: 'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({amount:amount}) }).then((t) =>
 			t.json()
 		)
 		console.log(expressData)
