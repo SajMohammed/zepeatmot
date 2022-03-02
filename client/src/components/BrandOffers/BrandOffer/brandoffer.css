@@ -1,0 +1,17 @@
+.offers__container {
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #e2f9f0;
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+
+.redeem-btn {
+    background-color: #20CE88;
+}
+.offer__redeem-container {
+    width:0;
+}

@@ -1,0 +1,26 @@
+.profile__header-container {
+    background-color: #2CE588;
+    padding: 30px 20px;
+    border-radius: 0 0 12px 12px;
+}
+
+.profile__options-tab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+.profile__options-details {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile__tab-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}

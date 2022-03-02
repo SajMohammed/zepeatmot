@@ -1,0 +1,47 @@
+.cart__item-total {
+    display: flex;
+}
+
+
+.cart__item-total {
+    display: flex;
+    justify-Content: space-between;
+    margin: 10px 30px
+}
+
+.cart__taxes, .cart__convenienceFee {
+    display: flex;
+    justify-Content: space-between;
+    margin: 10px 30px
+}
+
+.cart__total {
+    display: flex;
+    justify-Content: space-between;
+    margin: 10px 30px
+}
+
+.cart__total h4{
+    margin: 0;
+}
+
+.cart__manualbarcode-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+/* .cart__isEmptyCard {
+    display:"flex";
+    justify-content:"center";
+    align-items:"center";
+    flex-direction:"column";
+
+    background-color:"#e2f9f0";
+    padding:"12px 55px";
+    border-radius:"32px";
+    box-shadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px 0px";
+    height:"300px";
+    
+} */

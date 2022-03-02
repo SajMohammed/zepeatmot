@@ -1,0 +1,48 @@
+.cartitem__container {
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #e2f9f0;
+    border-radius: 24px;
+    padding: 10px 10px;
+}
+
+.cartitem__container-details_box h3 {
+    margin:0;
+    padding-bottom: 12px;
+}
+
+.cartitem__container-details_box p {
+    margin:0
+}
+
+.cartitem-image {
+    border: 4px solid rgba(32, 206, 136, 0.13);
+    border-radius: 14px;
+}
+
+.cartitem__container-details_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-bottom: 22px;
+    text-align: left;
+    
+}
+
+.cartitem-image {
+    width: 112px;
+    height: 112px;
+}
+
+.cartitem__btngroup {
+    display: flex;
+    gap: 4px;
+}
+
+.cartitem__container-details_box p:first-child {
+    color: #d1d1d1;
+}

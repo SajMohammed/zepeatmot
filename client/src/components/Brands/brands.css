@@ -1,0 +1,4 @@
+.brands__container-title {
+    display: flex;
+    justify-content: space-around;
+}
